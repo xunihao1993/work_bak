@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'q1#cxvo#ef=ne0*eb$$go@#s3$m#z(w0)i=&xiwizb+sjytbja'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  # 投产时得关掉
 
 ALLOWED_HOSTS = []
 
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myApp',
-    'djcelery',
+    'djcelery',       # celery
 ]
 
 MIDDLEWARE = [
@@ -150,7 +150,7 @@ CELERY_RESULT_SERIALIZER = 'json'
 # celery时区设置，使用settings中TIME_ZONE同样的时区
 CELERY_TIMEZONE = TIME_ZONE
 # 指定任务文件
-CELERY_IMPORES=("celerys.task")
+CELERY_IMPORES=("myApp.task")  # app.task**********
 # celery beat配置
 DJANGO_CELERY_BEAT_TZ_AWARE = False
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
@@ -158,7 +158,7 @@ CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 from celery.schedules import crontab
 CELERYBEAT_SCHEDULE={
     u'测试11111':{
-        "task":"celerys.task.longIO",
+        "task":"myApp.task.longIO", # ******** app.task
         "schedule":crontab(),
         "args":(['1','2'],['3','4'])#传参，可以以文件的形式动态读取
     },

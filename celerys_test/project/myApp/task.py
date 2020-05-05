@@ -6,7 +6,7 @@ from django.db import transaction
 @shared_task
 def test1():
     print("这是队列任务1")
-    1/0
+    # 1/0
     return '这是队列1'
 
 @shared_task
