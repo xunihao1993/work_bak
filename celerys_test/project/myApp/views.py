@@ -15,11 +15,11 @@ def index(request):
     #缓存的应用
     # for i in range(100):
     #     cache.set('a'+str(i),'������'+str(i),60*60)
-    cache.set("aa",{"c":{'e':"c"},'d':'2'},60*60)
-    a = cache.get('aa').get('c')
-    print(a)
+    # cache.set("aa",{"c":{'e':"c"},'d':'2'},60*60)
+    # a = cache.get('aa').get('c')
+    print('qweq')
     # return HttpResponseRedirect('/rsfTest1')
-    return
+    return HttpResponse('哈哈哈')
 def celery_test(request):
     #缓存的应用
     a=longIO.delay(['1','2','3','4'],["haha","cc"])

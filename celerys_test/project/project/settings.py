@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -25,12 +24,12 @@ SECRET_KEY = 'q1#cxvo#ef=ne0*eb$$go@#s3$m#z(w0)i=&xiwizb+sjytbja'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # 投产时得关掉
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myApp',
-    'djcelery',       # celery
+    'djcelery',  # celery
 ]
 
 MIDDLEWARE = [
@@ -71,7 +70,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -86,8 +84,8 @@ DATABASES = {
     }
 }
 # 配置缓存
-CACHES={
-    'default':{
+CACHES = {
+    'default': {
         'BACKEND': 'redis_cache.cache.RedisCache',
         'LOCATION': "redis://:haohao@192.168.45.90:6379/0",
         'TIMEOUT': 60,
@@ -96,7 +94,6 @@ CACHES={
         }
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -116,7 +113,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -131,7 +127,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
@@ -139,6 +134,7 @@ STATIC_URL = '/static/'
 
 # 配置celery
 import djcelery
+
 djcelery.setup_loader()
 # 指定redis数据库
 # CELERY_BROKER_URL = 'redis://:haohao@192.168.45.90:6379/0'
@@ -150,16 +146,61 @@ CELERY_RESULT_SERIALIZER = 'json'
 # celery时区设置，使用settings中TIME_ZONE同样的时区
 CELERY_TIMEZONE = TIME_ZONE
 # 指定任务文件
-CELERY_IMPORES=("myApp.task")  # app.task**********
+CELERY_IMPORES = ("myApp.task")  # app.task**********
 # celery beat配置
 DJANGO_CELERY_BEAT_TZ_AWARE = False
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 
 from celery.schedules import crontab
-CELERYBEAT_SCHEDULE={
-    u'测试11111':{
-        "task":"myApp.task.longIO", # ******** app.task
-        "schedule":crontab(),
-        "args":(['1','2'],['3','4'])#传参，可以以文件的形式动态读取
+
+CELERYBEAT_SCHEDULE = {
+    u'测试11111': {
+        "task": "myApp.task.longIO",  # ******** app.task
+        "schedule": crontab(),
+        "args": (['1', '2'], ['3', '4'])  # 传参，可以以文件的形式动态读取
     },
 }
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATICFILES_DIRS = [
+     os.path.join(BASE_DIR, "static"),
+]
+import time
+# SIMPLEUI_CONFIG = {
+#     'system_keep': True,
+#     'menu_display': ['Simpleui', '测试', '权限认证', '动态菜单测试'],      # 开启排序和过滤功能, 不填此字段为默认排序和全部显示, 空列表[] 为全部不显示.
+#     'dynamic': True,    # 设置是否开启动态菜单, 默认为False. 如果开启, 则会在每次用户登陆时动态展示菜单内容
+#     'menus': [{
+#         'name': 'Simpleui',
+#         'icon': 'fas fa-code',
+#         'url': 'https://gitee.com/tompeppa/simpleui'
+#     }, {
+#         'app': 'auth',
+#         'name': '权限认证',
+#         'icon': 'fas fa-user-shield',
+#         'models': [{
+#             'name': '用户',
+#             'icon': 'fa fa-user',
+#             'url': 'auth/user/'
+#         }]
+#     }, {
+#         'name': '测试',
+#         'icon': 'fa fa-file',
+#         'models': [{
+#             'name': 'Baidu',
+#             'url': 'http://baidu.com',
+#             'icon': 'far fa-surprise'
+#         }, {
+#             'name': '内网穿透',
+#             'url': 'https://www.wezoz.com',
+#             'icon': 'fab fa-github'
+#         }]
+#     }, {
+#         'name': '动态菜单测试' ,
+#         'icon': 'fa fa-desktop',
+#         'models': [{
+#             'name': time.time(),
+#             'url': 'http://baidu.com',
+#             'icon': 'far fa-surprise'
+#         }]
+#     }]
+# }
