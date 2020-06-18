@@ -1,0 +1,1255 @@
+INFO [2020-06-07 17:54:52,171] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 17:56:29,220] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\settings.py changed, reloading.
+INFO [2020-06-07 18:10:43,113] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 18:10:50,133] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:50,135] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:50,135] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:50,138] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:50,140] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:52,886] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,757] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,759] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,770] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,771] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,772] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:10:57,840] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:11,829] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/index.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:11,887] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/waves/waves.min.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:11,916] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/automatic/dicts.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:11,941] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/automatic/segment.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:11,996] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/waves/waves.min.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,010] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/index.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,021] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/locale/en-us.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,049] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,053] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/locale/zh-hans.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,094] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/cookie.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,150] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/theme/theme.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,359] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/waves/waves.min.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:11:12,401] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/index.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO [2020-06-07 18:11:55,804] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 18:12:03,918] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:12:03,928] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:12:03,933] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:12:03,936] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:12:03,937] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+ERROR [2020-06-07 18:12:04,140] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+INFO [2020-06-07 18:13:35,954] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:13:43,206] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\settings.py changed, reloading.
+INFO [2020-06-07 18:13:45,777] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:14:18,773] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\settings.py changed, reloading.
+INFO [2020-06-07 18:14:25,678] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:14:54,444] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:15:56,290] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 18:15:58,113] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:17:39,014] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\models.py changed, reloading.
+INFO [2020-06-07 18:17:41,213] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:17:47,253] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\models.py changed, reloading.
+INFO [2020-06-07 18:17:49,335] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:19:25,074] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\admin.py changed, reloading.
+INFO [2020-06-07 18:19:27,413] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:19:44,912] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\admin.py changed, reloading.
+INFO [2020-06-07 18:19:46,959] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:19:56,693] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\admin.py changed, reloading.
+INFO [2020-06-07 18:19:58,845] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:20:02,133] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\admin.py changed, reloading.
+INFO [2020-06-07 18:20:04,294] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:20:09,935] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\admin.py changed, reloading.
+INFO [2020-06-07 18:20:12,720] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:20:21,223] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\views.py changed, reloading.
+INFO [2020-06-07 18:20:23,771] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 18:21:00,804] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:47:45,514] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\myApp\serializers.py changed, reloading.
+INFO [2020-06-07 22:47:51,281] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 22:47:59,886] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:47:59,891] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,138] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,144] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,147] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,445] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,472] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,505] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:00,597] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,080] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,081] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,168] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,184] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,211] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:48:04,247] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+INFO [2020-06-07 22:50:02,248] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 22:50:07,155] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 22:50:12,803] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:50:12,811] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:50:12,815] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:50:12,817] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:50:12,819] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:50:13,029] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+INFO [2020-06-07 22:51:07,375] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 22:51:09,180] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:51:11,274] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 22:51:13,060] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:51:18,400] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 22:51:27,654] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/css/login.css
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:51:27,655] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/logo.png
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:51:27,671] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/js/login.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:51:27,676] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/particles.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:51:27,679] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/particles/app.js
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+ERROR [2020-06-07 22:51:28,268] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /static/admin/simpleui-x/img/bg.svg
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\static.py", line 36, in serve
+    fullpath = Path(safe_join(document_root, path))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\_os.py", line 32, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\python36\lib\ntpath.py", line 76, in join
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+INFO [2020-06-07 22:52:01,906] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 22:52:07,206] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:52:42,766] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+WARNING [2020-06-07 22:53:10,951] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/css/login.css
+WARNING [2020-06-07 22:53:10,962] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/js/login.js
+WARNING [2020-06-07 22:53:10,967] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/particles.js
+WARNING [2020-06-07 22:53:10,975] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/app.js
+WARNING [2020-06-07 22:53:10,979] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/img/logo.png
+WARNING [2020-06-07 22:53:11,032] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/img/bg.svg
+WARNING [2020-06-07 22:53:11,154] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/js/login.js
+WARNING [2020-06-07 22:53:11,161] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/particles.js
+WARNING [2020-06-07 22:53:11,167] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/app.js
+INFO [2020-06-07 22:53:19,450] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\urls.py changed, reloading.
+INFO [2020-06-07 22:53:21,345] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+WARNING [2020-06-07 22:53:27,802] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/css/login.css
+WARNING [2020-06-07 22:53:27,803] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/js/login.js
+WARNING [2020-06-07 22:53:27,804] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/app.js
+WARNING [2020-06-07 22:53:27,804] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/particles.js
+WARNING [2020-06-07 22:53:27,809] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/img/logo.png
+WARNING [2020-06-07 22:53:27,917] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/img/bg.svg
+WARNING [2020-06-07 22:53:27,929] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /static/admin/simpleui-x/particles/app.js
+INFO [2020-06-07 22:57:43,168] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:58:29,737] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py trigger_reload 217] D:\python_xiangmu2.X\celerys_test\project\project\settings.py changed, reloading.
+INFO [2020-06-07 22:58:31,678] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 22:58:38,676] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 22:58:54,517] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /admin/myApp/logdowninfo/
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'celery_django2.LogDownInfo' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 1685, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 744, in get_changelist_instance
+    sortable_by,
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 82, in __init__
+    self.get_results(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 210, in get_results
+    result_count = paginator.count
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\paginator.py", line 91, in count
+    return c()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1133, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'celery_django2.LogDownInfo' doesn't exist")
+ERROR [2020-06-07 22:58:55,861] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /admin/myApp/deviceinfo/
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'celery_django2.DeviceInfo' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 1685, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 744, in get_changelist_instance
+    sortable_by,
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 82, in __init__
+    self.get_results(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 210, in get_results
+    result_count = paginator.count
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\paginator.py", line 91, in count
+    return c()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1133, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'celery_django2.DeviceInfo' doesn't exist")
+ERROR [2020-06-07 22:59:09,705] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /admin/myApp/logdowninfo/
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'celery_django2.LogDownInfo' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 1685, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\options.py", line 744, in get_changelist_instance
+    sortable_by,
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 82, in __init__
+    self.get_results(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\views\main.py", line 210, in get_results
+    result_count = paginator.count
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\paginator.py", line 91, in count
+    return c()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1133, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'celery_django2.LogDownInfo' doesn't exist")
+INFO [2020-06-07 23:01:26,778] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 23:10:43,541] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 23:10:59,669] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-07 23:15:48,707] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+ERROR [2020-06-07 23:16:00,930] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\log.py log_response 228] Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 189, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'test.django_session' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 212, in inner
+    if not self.has_permission(request):
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\admin\sites.py", line 186, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\functional.py", line 256, in inner
+    self._setup()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\functional.py", line 392, in _setup
+    self._wrapped = self._setupfunc()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\auth\__init__.py", line 182, in get_user
+    user_id = _get_user_session_key(request)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\auth\__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 54, in __getitem__
+    return self._session[key]
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 194, in _get_session
+    self._session_cache = self.load()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    expire_date__gt=timezone.now()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 402, in get
+    num = len(clone)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 256, in __len__
+    self._fetch_all()
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1133, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'test.django_session' doesn't exist")
+INFO [2020-06-07 23:18:21,400] [D:\python_xiangmu2.X\celerys_test\project\venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-08 01:00:37,782] [F:\桌面备份\python\test\django\win64_venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-08 01:09:39,874] [C:\Python36\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+INFO [2020-06-08 01:20:07,711] [F:\桌面备份\python\test\django\win64_venv\lib\site-packages\django\utils\autoreload.py run_with_reloader 597] Watching for file changes with StatReloader
+WARNING [2020-06-08 01:20:20,255] [F:\桌面备份\python\test\django\win64_venv\lib\site-packages\django\utils\log.py log_response 228] Not Found: /favicon.ico

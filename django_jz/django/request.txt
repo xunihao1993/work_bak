@@ -1,0 +1,12 @@
+django==2.2.10
+django-redis==4.9.0
+mysqlclient ==1.4.6
+requests==2.18.4
+pyyaml==5.3
+celery==3.1.25
+celery-with-redis==3.0
+django-celery==3.2.1
+djangorestframework
+simpleui
+django-redis-cache
+redis==2.10.6
