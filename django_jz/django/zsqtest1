@@ -1,0 +1,95 @@
+decorators.py
+
+#!/usr/bin/env python
+# -*-coding:utf-8 -*-
+"""
+----------------------------------------------------------------------
+@author  :sdc_os
+@time    :2020/02/10
+@file    :decorators..py
+@desc    :装饰器Python文件
+@license :(c) Copyright 2020, SDC.
+-----------------------------------------------------------------------
+"""
+from rest_framework.response import Response
+from functools import wraps
+
+
+def api_response(interpretation=None):
+    """
+    用于请求相应数据的统一格式封装
+    """
+    # assert interpretation is not None, (
+    #     "@api_response() missing required argument: 'interpretation'"
+    # )
+
+    def decorator(func):
+        # print("api_response")
+        # return func
+
+        @wraps(func)
+        def wrapper(request, *args, **kwargs):
+            res = func(request, *args, **kwargs)
+            if isinstance(res, Response):
+                return res
+            msg = interpretation
+            code = "0"
+            if isinstance(res, tuple):
+                res_length = len(list(res))
+                assert 1 <= res_length <= 3, (
+                    "if res type is tuple, length must be 1 or 3.eg: [], 'example message code'"
+                )
+                if res_length == 2:
+                    data, msg = res
+                elif res_length == 3:
+                    data, msg, code = res
+                else:
+                    data = res
+            else:
+                data = res
+            return Response({
+                "ErrorInfo": {
+                    "errCode": code,
+                    "errDec": msg,
+                },
+                "MsgInfo": data,
+            })
+            # return Response({
+            #     "code": code,
+            #     "msg": msg,
+            #     "data": data,
+            # })
+        wrapper.bind_to_methods = func.bind_to_methods
+        wrapper.detail = func.detail
+        wrapper.url_path = func.url_path
+        wrapper.url_name = func.url_name
+        wrapper.kwargs = func.kwargs
+        return wrapper
+
+    return decorator
+
+
+def api_action(methods=None, detail=None, url_path=None, url_name=None, interpretation=None, **kwargs):
+    """
+       Mark a ViewSet method as a routable action.
+
+       Set the `detail` boolean to determine if this action should apply to
+       instance/detail requests or collection/list requests.
+       """
+    methods = ['get'] if (methods is None) else methods
+    methods = [method.lower() for method in methods]
+
+    assert detail is not None, (
+        "@action() missing required argument: 'detail'"
+    )
+
+    def decorator(func):
+        func.bind_to_methods = methods
+        func.detail = detail
+        func.url_path = url_path if url_path else func.__name__
+        func.url_name = url_name if url_name else func.__name__.replace('_', '-')
+        func.kwargs = kwargs
+        return api_response(interpretation=interpretation)(func)
+
+    return decorator
+
