@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+# -*-coding:utf-8 -*-
+"""
+-------------------------------------------------------------------------------
+@author  :sdc_os
+@time    :2020/02/10
+@file    :api_url.py
+@desc    :模块api路由
+@license :(c) Copyright 2020, SDC.
+-------------------------------------------------------------------------------
+"""
+from django.conf.urls import include
+from rest_framework.routers import DefaultRouter
+from commissionApp.api.auth import TokenViewSet, UserViewSet
+from commissionApp.api.main import MainViewSet
+from commissionApp.api.status import StatusViewSet
+from django.urls import path, re_path
+from commissionApp import views
+from commissionApp.api.test2 import TestView2
+from django.contrib import admin
+# from demo import api_urls as demo_api_urls
+router = DefaultRouter()
+router.register(r'token', TokenViewSet, base_name='token')
+router.register(r'user', UserViewSet, base_name='user')
+router.register(r'main', MainViewSet, base_name='main')
+router.register(r'status', StatusViewSet, base_name='demo')
+router.register(r'test2', TestView2, base_name='demo2')
+
+urlpatterns = [
+    # path('api/demo/', include(demo_api_urls)),
+    path('api/', include(router.urls)),
+
+
+	# path('', admin.site.urls),
+    re_path(r'^celerytest/$', views.celery_test),
+    re_path(r'^test/$', views.test),
+	re_path(r'^test2/$', views.test2)
+
+]
